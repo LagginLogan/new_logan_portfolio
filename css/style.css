@@ -1,0 +1,325 @@
+html {
+	font-size: 62.5%;
+}
+h1  {
+    color: rgb(227, 227, 227);
+    font-size: 1em;
+    margin-bottom: .3em;
+    text-align: center;
+  }
+img {
+    width: 100%;
+    height: auto;
+}
+body {
+  
+  background-color: #434343;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='28' height='49' viewBox='0 0 28 49'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='hexagons' fill='%230c0c0c' fill-opacity='0.4' fill-rule='nonzero'%3E%3Cpath d='M13.99 9.25l13 7.5v15l-13 7.5L1 31.75v-15l12.99-7.5zM3 17.9v12.7l10.99 6.34 11-6.35V17.9l-11-6.34L3 17.9zM0 15l12.98-7.5V0h-2v6.35L0 12.69v2.3zm0 18.5L12.98 41v8h-2v-6.85L0 35.81v-2.3zM15 0v7.5L27.99 15H28v-2.31h-.01L17 6.35V0h-2zm0 49v-8l12.99-7.5H28v2.31h-.01L17 42.15V49h-2z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  /* alt + z tp activate word wrap */
+
+  color: #444;
+  background-color: rgb(32, 32, 32);
+  font-size: 1.6rem;
+  font-family: 'Gentium Book Basic', sans-serif;
+
+/* HEADER SECTION */
+
+}
+  .st_pics {
+    display: flex;
+    flex: 1 1 20em;
+    flex-wrap: wrap;
+    flex-direction: row;
+    overflow: hidden;
+    padding: 1em;
+
+    justify-content: center;
+    justify-items: first baseline;
+    width: 80em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    margin: auto;
+    text-align: center;
+
+    flex: 1 1 20em;
+    background-color: rgb(44, 44, 44);
+    border: 3px solid rgb(204, 204, 204);
+    margin: auto; 
+
+  }
+  
+
+  .st_pics > img {
+    display: flex;
+    width: 22em;
+    height: 14em;
+    margin: auto;
+    justify-content: center;
+    border: 3px solid white;
+  }
+
+  .titlename {
+    margin-top: 0.4em;
+    font-size: 6em;
+    font-family: 'Amatic SC', cursive;
+    border-bottom: 0.07em solid currentColor;
+  }
+
+  .st_text {
+    font-family: 'Raleway', cursive;
+    display: flex;
+    justify-content: space-evenly;
+ 
+    font-size: 2em;
+    color: rgb(227, 227, 227);
+    padding: 0.7em;
+    
+  }
+
+  .st_text :first-child {
+      align-self: center;
+  }
+
+
+/* ABOUT ME SECTION */
+
+.abtme > h1{
+  font-size: 7em;
+  font-family: 'Amatic SC', cursive;
+  min-width: 8.5em;
+}
+
+.abtme > p{
+  font-size: 2em;
+  font-family: 'Raleway', cursive;
+  color: rgb(204, 204, 204);
+
+  justify-content: center;
+  margin-left: 5em;
+  margin-right: 5em;
+
+  flex: 1 1 20em;
+  background-color: rgb(44, 44, 44);
+  border: 3px solid rgb(204, 204, 204);
+  padding: 0.4em;
+  min-width: 10em;
+
+}
+
+.abtme ul{
+  background-color: rgb(44, 44, 44);
+  border: 3px solid rgb(204, 204, 204);
+  flex: 1 1 20em;
+  padding: 0.4em;
+  min-width: 10em;
+  
+  justify-content: center;
+  margin-left: 5em;
+  margin-right: 5em;
+  padding-left: 2.5em;
+}
+
+.abtme li{
+  font-size: 2em;
+  font-family: 'Raleway', cursive;
+  color: rgb(204, 204, 204);
+}
+
+/* TECHNICAL SKILLS AND DESIGN SECTION */
+
+.tech > h1{
+  font-size: 5em;
+  font-family: 'Amatic SC', cursive;
+  min-width: 8.5em;
+}
+
+.techcontent{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  overflow: hidden;
+  padding: 1em;
+
+  flex: 1 1 20em;
+  background-color: rgb(44, 44, 44);
+  border: 3px solid rgb(204, 204, 204);
+  margin: 28px; 
+    
+}
+
+.techcontent > p{
+  font-size: 1.7em;
+  font-family: 'Raleway', cursive;
+  color: rgb(204, 204, 204);
+
+  margin-right: 0.5em;
+  margin-left: 0.5em;
+
+
+  background-color: rgb(44, 44, 44);
+  border: 3px solid rgb(204, 204, 204);
+  padding: 0.4em;
+  min-width: 10em;
+
+  position: center;
+  display:inline-block;
+  height: auto;
+  word-wrap: break-word;
+
+}
+
+.techcontent > img{
+  display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    overflow: hidden;
+  
+
+    flex: 1 1 20em;
+    background-color: rgb(44, 44, 44);
+    border: 3px solid rgb(204, 204, 204);
+    margin: 0.4em; 
+
+    width: 22em;
+    height: 20em;
+}
+
+/* VIDEO PRODUCTION SECTION */
+
+.vid > h1{
+  font-size: 5em;
+  font-family: 'Amatic SC', cursive;
+  min-width: 8.5em;
+}
+
+.vidcontent{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  overflow: hidden;
+  padding: 1em;
+
+  flex: 1 1 20em;
+  background-color: rgb(44, 44, 44);
+  border: 3px solid rgb(204, 204, 204);
+  margin: 28px; 
+    
+}
+
+.vidcontent > p{
+  font-size: 1.7em;
+  font-family: 'Raleway', cursive;
+  color: rgb(204, 204, 204);
+
+  margin-right: 0.5em;
+  margin-left: 0.5em;
+
+
+  background-color: rgb(44, 44, 44);
+  border: 3px solid rgb(204, 204, 204);
+  padding: 0.4em;
+  min-width: 10em;
+
+  position: center;
+  display:inline-block;
+  height: auto;
+  word-wrap: break-word;
+
+}
+
+.vidcontent > video{
+  display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    overflow: hidden;
+  
+
+    flex: 1 1 20em;
+    background-color: rgb(44, 44, 44);
+    border: 3px solid rgb(204, 204, 204);
+    margin: 0.4em; 
+
+    width: 22em;
+    height: 20em;
+}
+
+footer{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 1.3em;
+  margin-top: 3em;
+  padding: 1em;
+  color: white;
+}
+
+.fintext{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 1.7em;
+  margin-top: 3.5em;
+  font-family: 'Raleway', cursive;
+  color: white;
+}
+
+
+footer > li{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 1.3em;
+  font-family: 'Raleway', cursive;
+  color: white;
+}
+
+footer > ul{
+  list-style: none;
+}
+
+/*rule overrites for when screen smol */
+
+@media screen and (max-width:768px) {
+  nav ul{
+    flex-direction: column;
+  }
+  
+  .tech >h1{
+    min-width: auto;
+  }
+  .vid >h1{
+    min-width: auto;
+  }
+  .abtme >h1{
+    min-width: auto;
+  }
+  .abtme > p{
+    margin: auto;
+  }
+  .titlename{
+    min-width: auto;
+  }
+  .st_text{
+    font-size: large;
+  }
+  .st_pics{
+    min-width: auto;
+    flex-direction: column;
+    padding: 4px;
+    width: 24em;
+  }
+  .fintext{
+    margin: 5px;
+    padding: 2px;
+  }
+  footer{
+    padding: 3px;
+  }
+
+}
+
+
+
+
+
+
